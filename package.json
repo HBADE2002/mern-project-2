@@ -18,6 +18,7 @@
   "homepage": "https://github.com/HBADE2002/mern-project-2#readme",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.2",
     "mongoose": "^8.9.5"
   }

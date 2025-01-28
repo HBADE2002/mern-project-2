@@ -1,7 +1,11 @@
 // dependencies
 const express = require("express");
 const mongoose = require("mongoose");
+const cors = require("cors");
 const app = express();
+
+// middleware for enabling CORS (Cross-Origin Resource Sharing)
+app.use(cors());
 
 // middleware for parsing json
 app.use(express.json()); // Middleware to parse incoming JSON data into `req.body`.
